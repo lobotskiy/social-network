@@ -1,7 +1,9 @@
 import React from 'react'
 import Form from './LoginForm/Form';
 
+
 function Login() {
+   
     return (
         <div>
             <Form />
@@ -9,4 +11,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Login;

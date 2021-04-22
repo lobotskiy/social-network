@@ -16,6 +16,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `
+const Title = styled.h1`
+margin-bottom: 20px;
+color: #474747;
+`
+
 const FormSection = styled.div`
 margin-bottom: 10px;
 width: 80%;
@@ -77,6 +82,7 @@ const FormSignup = ({ submitForm }) => {
 
   return (
     <FormContainer onSubmit={handleSubmit} noValidate>
+      <Title>Register account</Title>
       <FormSection >
         <FormLabel>Username</FormLabel>
         <FormInput
@@ -115,7 +121,7 @@ const FormSignup = ({ submitForm }) => {
 
       <FormBtn type='submit'> Sign up </FormBtn>
       <InputLogin>
-        Already have an account? Login <Link href='#'>here</Link>
+        Already have an account? <Link href='#'>Sing in</Link>
       </InputLogin>
     </FormContainer>
   );
