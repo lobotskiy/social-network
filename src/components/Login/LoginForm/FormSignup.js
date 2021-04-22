@@ -5,72 +5,72 @@ import styled from 'styled-components';
 
 
 const FormContainer = styled.form`
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-width: 90%;
-height: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `
 const Title = styled.h1`
-margin-bottom: 20px;
-color: #474747;
+  margin-bottom: 20px;
+  color: #474747;
 `
 
 const FormSection = styled.div`
-margin-bottom: 10px;
-width: 80%;
+  margin-bottom: 10px;
+  width: 80%;
 `
 const StyledP = styled.p`
-font-size: 14px;
-margin-top: 2px;
-color: #f00e0e;
+  font-size: 14px;
+  margin-top: 2px;
+  color: #f00e0e;
 `
 const FormLabel = styled.label`
-display: inline-block;
-font-size: 16px;
-margin-bottom: 6px;
-color: #474747;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #474747;
 `
 const FormInput = styled.input`
-display: block;
-padding-left: 10px;
-outline: none;
-border-radius: 2px;
-height: 40px;
-width: 100%;
-border: none;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
 `
 const FormBtn = styled.button`
-width: 288px;
-height: 50px;
-margin-top: 10px;
-border-radius: 2px;
-background: #3498db;
-outline: none;
-border: none;
-color: #fff;
-font-size: 18px;
-&:hover{
-  cursor: pointer;
-  background: #4ea4de;
+  width: 288px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: #3498db;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  &:hover{
+    cursor: pointer;
+    background: #4ea4de;
 }
 `
 const InputLogin = styled.span`
-font-size: 14px;
-margin-top: 10px;
-color: #474747;
-width: 80%;
-text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #474747;
+  width: 80%;
+  text-align: center;
 `
 const Link = styled.a`
-text-decoration: none;
-color: #2980b9;
-font-weight: 600;
+  text-decoration: none;
+  color: #2980b9;
+  font-weight: 600;
 `
 
 
